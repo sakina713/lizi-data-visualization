@@ -1,0 +1,4 @@
+interface:
+  display_name: "栗子数据可视化"
+  short_description: "统一业务报告的图表、字号、配色、表格、模块间距与移动端静态长图验收"
+  default_prompt: "使用 $lizi-data-visualization 将已确认的数据与结论按栗子规范生成或调整可读的数据报告。"

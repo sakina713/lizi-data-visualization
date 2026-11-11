@@ -1,0 +1,30 @@
+{
+  "name": "栗子默认绿色",
+  "source": {
+    "description": "栗子数据可视化默认绿色主题；品牌主题可覆盖。"
+  },
+  "palette": {
+    "A": "#14805E",
+    "T1": "#14805E",
+    "T2": "#1F2926",
+    "C1": "#14805E",
+    "C2": "#3C9679",
+    "C3": "#5BA68E",
+    "C4": "#7BB8A5",
+    "C5": "#9CCABB",
+    "C6": "#B9D9CF",
+    "C7": "#D0E6DF",
+    "C8": "#E3F0EC",
+    "V": "#BD2828",
+    "W": "#D74242"
+  },
+  "supporting": {
+    "positive": "#14805E",
+    "positiveBackground": "#F0FBF7",
+    "muted": "#8C8C8C",
+    "negativeBackground": "#FBF0EE",
+    "pageBackground": "#F5F6FA",
+    "cardBackground": "#FFFFFF"
+  },
+  "note": "palette为Figma色块实测；supporting为沿用的辅助规则，非该色板中的额外色块。客户已确认主题优先。"
+}
