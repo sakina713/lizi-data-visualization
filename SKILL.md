@@ -19,7 +19,7 @@ description: 栗子数据可视化：将已确认的业务数据与结论呈现�
 ## 使用路径
 
 1. 识别是已有报告调整还是新报告。已有报告先读取其配置、样式和用户指定参考，按本次授权范围调整已确认图形；记录型明细可按卡片化规则提炼展示字段。新报告先判断数据关系，再选图；不能用同一六章或同一图表清单覆盖所有客户。
-2. 必读[字号与文字排版](references/typography.md)、[布局、主题与组件](references/layout-theme.md)。绘制或调整图表时读[图表规则](references/charts.md)及[图表绘制原则](references/chart-drawing.md)；区域×指标等色块分布矩阵再读[数值热力矩阵](references/distribution-matrix.md)，时段分布读[时段热力矩阵](references/time-distribution.md)。强调同比/环比提升或两期变化时读[周期变化重点展示](references/period-change.md)。新数据类型或尚未确定图形时再读[AntV选图逻辑适配](references/chart-selection-antv.md)。有数值或比较时读[数据展示契约](references/data-display.md)。
+2. 必读[字号与文字排版](references/typography.md)、[布局、主题与组件](references/layout-theme.md)。绘制或调整图表时读[图表规则](references/charts.md)及[图表绘制原则](references/chart-drawing.md)；区域×指标等色块分布矩阵再读[数值热力矩阵](references/distribution-matrix.md)，时段分布读[时段热力矩阵](references/time-distribution.md)。强调同比/环比提升、两期变化或核心指标历史走势时读[周期变化与关键指标趋势](references/period-change.md)。正负方向明细需紧凑比较时读[分组紧凑横条](references/signed-details.md)。新数据类型或尚未确定图形时再读[AntV选图逻辑适配](references/chart-selection-antv.md)。有数值或比较时读[数据展示契约](references/data-display.md)。
 3. 采用“客户数据＋模块配置＋样式规范”分层结构。封面与正文用同一指标ID；几何、数值、图例、名单和结论引用随数据同步更新。只改视觉时保留数据和原业务结论。漏斗信息密集时读取[左右布局与指向线](references/funnel-layout.md)，先分区排布再处理标签避让。
 4. 移动端生成或回改读取[宽度、高度与信息密度适配](references/mobile-layout.md)，按实际容器和内容重排，不把整图连同文字缩小。再按[渲染与验收](references/delivery.md)实际生成、检查并交付。HTML是正式可接受输出；用户要PNG时再导出，不能用HTML生成成功冒充图片验收完成。
 
